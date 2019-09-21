@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css';
+import './index.css';
+import { Layout, Menu, Icon } from 'antd';
+
+const { Header, Sider, Content } = Layout;
 
 function App() {
   return (
@@ -10,6 +15,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <div className='text-teal-400'>tailwind</div>
         <a
           className="App-link"
           href="https://reactjs.org"
