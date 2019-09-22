@@ -61,9 +61,6 @@ function Home({ form }) {
     setVisible(false)
   }
 
-  const handleSubmitModal = (value) => {
-
-  }
 
   return (
     <div style={{ height: '100%', width: '100%', }}>
@@ -101,7 +98,6 @@ function Home({ form }) {
         visible={visible}
         handleOk={handleOk}
         handleCancel={handleCancel}
-        handleSubmit={handleSubmitModal}
         data={editData}
       />
     </div>
